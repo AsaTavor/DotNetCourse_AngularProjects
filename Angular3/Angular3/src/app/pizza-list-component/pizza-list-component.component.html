@@ -1,0 +1,15 @@
+<div>
+<h2>
+  Current pizza orders:
+</h2>
+<span>
+<table>
+  <tr>
+    <th>Diameter</th><th>Slices</th><th>Toppings</th><th>Price</th>
+  </tr>
+  <tr *ngFor="let i of arr"> 
+    <td>{{i.diameter}}</td><td>{{i.slices}}</td><td>{{i.toppings}}</td><td>{{i.price}}$</td>
+  </tr>
+</table>
+</span>
+</div>
