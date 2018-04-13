@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="panel-group">
+        <div class="panel panel-primary" >  
+            <div class="panel-heading">
+                <p *ngIf="movInput">    Selected movie date:&nbsp;&nbsp;{{movInput.movie_date}}</p>
+            </div>
+            <div class="panel-body">
+            </div>
+        </div>
+        <div class="panel panel-primary" >  
+            <div class="panel-body">
+                <p *ngIf="movInput">    Selected movie price:&nbsp;&nbsp;{{movInput.price}}$</p>
+            </div>
+        </div>
+        <div class="panel panel-primary" >  
+            <div class="panel-body">
+                    <p *ngIf="movInput">     Selected movie:&nbsp;&nbsp;{{movInput.movie_name}}</p>
+            </div>
+        </div>
+        <div class="panel panel-primary"  > 
+            <div class="panel-body">
+                    <p *ngIf="movInput">      Selected movie id:&nbsp;&nbsp;{{movInput.id}}</p>
+            </div>
+        </div>
+    </div>
+</div>

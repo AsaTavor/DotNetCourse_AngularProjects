@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="row align-items-center" *ngFor="let x of movArr">
+<div class="col-sm-6 offset-sm-6">
+  {{x.id}}<button class="btn btn-primary" (click)="emitFunc(x.id)">{{x.movie_name}}<br/></button>
+</div>
+</div>
+</div>
