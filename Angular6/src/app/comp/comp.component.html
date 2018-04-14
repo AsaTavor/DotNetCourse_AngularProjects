@@ -1,0 +1,13 @@
+<span>Serach for:&nbsp;&nbsp;</span>
+<input [(ngModel)]="letter">
+<button (click)="submit()">Submit</button>
+<div *ngIf="flag1" class="list">
+  <span *ngFor="let i of arrToShow">
+    <li>
+      <ul>
+          &#9658;{{i}}
+      </ul>
+    </li>
+    </span>
+</div>
+<div *ngIf="flag2" class="error">please enter only 1 char</div>

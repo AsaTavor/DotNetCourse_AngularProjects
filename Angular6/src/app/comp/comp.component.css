@@ -1,0 +1,11 @@
+.error{
+    font-size: 3ex;
+    color: red;
+}
+.list{
+color: green;
+width:80%;
+}
+li,ul{
+    display: inline;
+}
