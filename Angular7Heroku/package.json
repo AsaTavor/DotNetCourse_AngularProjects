@@ -2,12 +2,12 @@
   "name": "angular7heroku",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-	,"start":"node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines":{"node":"9.8.0"},
   "author": "",
   "license": "ISC"
 }
