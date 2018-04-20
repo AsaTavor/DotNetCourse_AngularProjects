@@ -1,0 +1,9 @@
+<div class="c">
+ <div class="b" *ngFor="let x of articleList.articleArray, let i=index">
+  <button (click)="func(i)"> 
+  <div class="a">{{x.article_type}}</div>
+   <div class="a">{{x.author_display}}</div>
+   <div class="a">{{x.score}}</div>
+  </button>
+  </div>
+</div>
