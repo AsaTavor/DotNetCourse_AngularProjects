@@ -1,0 +1,11 @@
+<div>
+
+<h1>Welcome to Ajax Request!</h1>
+<span *ngIf="peapleArrayObj.data">
+<p *ngFor="let x of peapleArrayObj.data">
+    first_name:&nbsp;{{x.first_name}}
+    <br/>last_name:&nbsp;{{x.last_name}}
+    <br/>full_name:&nbsp;{{x.first_name+" "+x.last_name}}
+    <br/><img [src]="x.avatar"></p>
+</span>
+</div>
